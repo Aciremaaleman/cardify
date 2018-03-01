@@ -1,5 +1,24 @@
-* { margin: 0; padding: 0; }
-.gallery { max-width: 90%; margin: 30px auto; display: flex; flex-flow: column wrap; max-height: 1000px; }
-.gallery img { width: 25%; }
-.cardify-figure { background: #333; color: #fff; 
+body {
+    background-color: rgb(252, 249, 174);
+}
+
+h1{
+    text-align: center;
+    font-family: cursive;
+    font-size: 3em;
+    color: rgba(88, 165, 120, 0.856);
+}
+
+img {
+    height: 50vh;
+    width: 50%;
+    border: 10px solid rgba(131, 252, 181, 0.377);
+    border-radius: 12px;
+}
+
+figcaption {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    border-bottom: 6px solid  rgba(131, 252, 181, 0.815);
+    border-width: 3px;
 }
