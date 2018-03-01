@@ -10,6 +10,7 @@ h1{
 }
 
 img {
+    margin-left: 25%;
     height: 50vh;
     width: 50%;
     border: 10px solid rgba(131, 252, 181, 0.377);
@@ -17,6 +18,7 @@ img {
 }
 
 figcaption {
+    text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.5em;
     border-bottom: 6px solid  rgba(131, 252, 181, 0.815);

@@ -11,10 +11,8 @@ let createElements = (img, alt, element) => {
  document.body.removeChild(element);
   for(let i=0; i<img.length; i++){
       let figure = document.createElement('figure');
-      figure.setAttribute('align', 'center');
       let img =document.createElement('img');
       img.setAttribute('src', imgArray[i]);
-      img.setAttribute('width', '300px');
       figure.appendChild(img);
       let figcaption =document.createElement('figcaption');
       figcaption.innerHTML= altArray[i];
